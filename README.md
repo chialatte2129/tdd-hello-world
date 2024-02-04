@@ -1,33 +1,38 @@
-# Python Basic Usage
+# Junior Back-end Software Engineer ASSESSMENT
 
-## Install Python 
-First, we need to have Python in our environment. Depending on the environment, there is more than one way to install Python.
+### Welcome
 
-#### Mac OS/Linux
-Python is preinstall on Mac and Linux, but it is likely to be outdated.
+The purpose of this assessment is to evaluate the skills required to successfully carry out a part of the responsibilities of the Junior Back-end Software Engineer role at Alma Economics. You have five days to deliver the project below.
 
-We can check the currently installed version with the following command 
+### Python Movie Manager System
 
-```
-$ python --version
-3.10.6
-```
+This assessment evaluates your Python programming proficiency, focusing on file manipulation and basic data handling. You will work with a list of movies stored in a CSV file, which you can find [here](https://github.com/almaeconomics/movies_database). Your tasks will involve reading from and writing to files, manipulating data, and performing more complex operations on the movie information.
 
-Python can be upgraded to the latest version with the help of `brew` package manager.
-```
-brew upgrade python
-```
+### Task 1 - Data Loading
 
-#### Windows
-There are a couple of ways to get Python installed on Windows.
-* Microsoft Store
-* Running `Chocolatey` command, a package manager for windows\
-  `choco install python`
+- Write a Python script to read the contents of the CSV file that contains the movies and load the movie data into an appropriate data structure.
+- Display the total number of movies in the CSV file.
 
-## Packaging and Dependency management
-**Python Pip** is a default package manager for Python and it is used to install the packages that do not comes with Python.
+### Task 2 - Advanced Manipulation
 
-**Poetry** is another packaging and dependency management tool in Python. It offers sophisticated features that "pip" lacks such as dependency management.  
+- Implement a function to calculate and display the average score of all movies in the data structure.
+- Create a function to find and display the top N movies with the highest score.
 
-## Execute Tests
-`pytest` command automatically looks for the tests and executes them.
+### Task 3 - Data Operations
+
+- Implement a function to filter and display movies based on a specified genre.
+- Create a function to find and display all unique genres in the movie data.
+
+### Task 4 - Additional Complexity
+
+- Extend the program to allow users to rate movies. Implement a function to overwrite the score of a specific movie.
+- Create a function to recommend a movie based on the user's preferred genre and the highest score in that genre.
+
+### Task 5 - Chart Creation
+
+- Implement a function to create a chart visually representing movie score distribution. You can choose any appropriate chart type (e.g., bar chart, histogram).
+
+### Submission Guidelines
+
+- Set up a private GitHub repo for your project and add "almaeconomics" as a collaborator.
+- Aim to send in your work within the next five days.
